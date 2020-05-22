@@ -1,0 +1,38 @@
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.article {
+    margin: 0 50px;
+    margin-top: 10px;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+.img-article {
+    background-size: cover;
+    width: 70%; 
+    max-width: 700px;
+    height: auto;
+    margin: 10px 50px;
+    border: 3px solid #440026;
+}
+
+.center {
+    text-align: center;
+}
+
+.author, .share {
+    margin-left: 50px;
+  }
+
+button {
+      margin-right: 10px;
+      border: 1px solid #440026;
+  }

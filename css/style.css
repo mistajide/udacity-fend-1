@@ -1,0 +1,30 @@
+@import url('nav.css');
+@import url('main.css');
+@import url('sidebar.css');
+@import url('footer.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #b9e0d6;
+    color: #440026;
+}
+
+.container {
+  display: flex;
+  flex: 0.7 0.3;
+
+}
+
+@media only screen and (max-width: 760px) {
+  .container {
+      flex-direction: column;
+  }
+
+  .sidebar {
+   margin: 20px;
+  }
+}

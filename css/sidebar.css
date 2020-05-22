@@ -1,0 +1,33 @@
+  /* SIDEBAR */
+  .sidebar {
+    align-items: center;
+    border: 1px solid #440026;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 90px;
+    margin-right: 20px;
+    text-align: center;
+    height: 300px;
+    min-width: 300px;
+}
+.sidebar h4 {
+    margin-top: 40px;
+}
+
+.sidebar p {
+    margin: 0 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.submit {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #440026;
+}
